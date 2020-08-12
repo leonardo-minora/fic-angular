@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
-import { FalhaComponent } from './falha/falha.component';
-import { SucessoComponent } from './sucesso/sucesso.component';
+import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent } from './components';
 
 @Component({
   selector: 'app-root',

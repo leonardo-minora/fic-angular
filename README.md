@@ -24,4 +24,4 @@
 - [X] Colocar estilos em cada componente.
    - _OBS_: Texto Amarelo/vermelho/verde. Borda, Ícone, etc.
 - [X] Usar templates/estilos embutidos e externos.
-- [ ] Fique a vontade para criar mais componentes. 
+- [X] Fique a vontade para criar mais componentes. 

@@ -2,13 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { FalhaComponent } from './falha/falha.component';
-import { SucessoComponent } from './sucesso/sucesso.component';
+import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent } from './components';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CabecalhoComponent,
     FalhaComponent,
+    RodapeComponent,
     SucessoComponent
   ],
   imports: [
