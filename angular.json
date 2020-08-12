@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "minora-angular-app"
+    }
+  },
+  "defaultProject": "minora-angular-app",
+  "cli": {
+    "analytics": "8967b10b-91ea-4cbf-8495-baad64cb2d00"
+  }
 }

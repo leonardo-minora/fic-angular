@@ -13,7 +13,7 @@
 **Instruções**:
 
 - [X] Criar projeto Angular base.
-- [ ] Adicionar `Bootstrap`
+- [X] Adicionar `Bootstrap`
 - [ ] Criar página com 2 componentes diferentes
    - [ ] Componente de mensagem de sucesso
       - _Sugestão de texto_: `Operação realizada com sucesso`.
