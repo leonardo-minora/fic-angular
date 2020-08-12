@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent } from './components';
+import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent, TarefaComponent } from './components';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,8 @@ import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent 
     CabecalhoComponent,
     FalhaComponent,
     RodapeComponent,
-    SucessoComponent
+    SucessoComponent,
+    TarefaComponent
   ],
   imports: [
     BrowserModule

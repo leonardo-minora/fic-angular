@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent } from './components';
+import { CabecalhoComponent, FalhaComponent,  RodapeComponent, SucessoComponent, TarefaComponent } from './components';
 
 @Component({
   selector: 'app-root',
