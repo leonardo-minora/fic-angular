@@ -1,0 +1,7 @@
+p {
+    background-color: white;
+    border: dotted red;
+    color: red;
+    border-left: 7px solid red;
+    padding: 4px;
+}
