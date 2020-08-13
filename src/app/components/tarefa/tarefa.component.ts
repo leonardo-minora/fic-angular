@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     templateUrl: './tarefa.component.html'
 })
 export class TarefaComponent {
-    nome = '';
+    nome: string  = 'Minha nova tarefa fixa';
 
     constructor() {}
 }

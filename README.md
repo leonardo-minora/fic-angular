@@ -28,7 +28,7 @@
 ### 02 Databinging
 **Instruções**:
 - [X] Criar componente Angular em que a classe tenha um atributo chamado `nome`.
-- [ ] Criar Input Field com two-way binding de  `nome`.
+- [X] Criar Input Field com two-way binding de  `nome`.
 - [ ] Mostar o valor armazendo no atributo `nome` em um parágrafo usando string interpolation.
 - [ ] Adicionar um botão que só pode estar habilitado se `nome` não for vazio.
 - [ ] Ao clicar no botão, o atributo `nome` deve ser reiniciado, recebendo uma string vazia.
