@@ -8,4 +8,8 @@ export class TarefaComponent {
     nome: string  = 'Minha nova tarefa fixa';
 
     constructor() {}
+
+    tarefaVazia() {
+        return this.nome.length > 0;
+    }
 }
