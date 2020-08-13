@@ -1,3 +1,4 @@
+<div>
     <div class="input-group is-invalid">
         <div class="input-group-prepend" for="inputTarefa">
             <div class="input-group-text">
@@ -7,13 +8,20 @@
                 </svg>
             </div>
         </div>
-        <input [(ngModel)]="nome" id="inputTarefa" type="text" class="form-control" aria-describedby="validatedInputGroupPrepend" required>
+        <input [(ngModel)]="nome" (keyup.enter)="onAdicionarTarefa()" id="inputTarefa" type="text" class="form-control" aria-describedby="validatedInputGroupPrepend" required>
         <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" [disabled]="!tarefaVazia()">
+            <button class="btn btn-outline-secondary" type="button" [disabled]="!tarefaVazia()" (click)="onAdicionarTarefa()">
                 Adicionar
             </button>
         </div>
     </div>
-    <small id="passwordHelpBlock" class="form-text text-muted">
+    <div class="form-text text-muted">
         <small>nova tarefa: {{ nome }}</small>
-    </small>
+    </div>
+    <div class="form-text invalid-feedback" *ngIf="mostraMensagem">
+        <small>Tarefa <strong>{{nome}}</strong>adicionada!!!</small>
+    </div> 
+</div>
+<div >
+
+</div>
